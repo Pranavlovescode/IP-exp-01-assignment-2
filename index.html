@@ -41,8 +41,38 @@
             <br><br>
             <label for="mobile_number">Mobile Number : </label>
             <input type="number" name="number" id="number">
-
         </fieldset>
+        <br>
+        <fieldset>
+            <legend>Payment Details</legend>
+            <label for="payment">Payment Method : </label>
+            <select name="payment_method" id="payment_method">
+                <option value="online">Select an option</option>
+                <option value="online">Credit Card</option>
+                <option value="online">Debit Card</option>
+                <option value="online">Net Banking</option>
+                <option value="online">NEFT</option>
+            </select>
+            <br>
+            <br>
+            <label for="card_holder_name">Card Holder name : </label>
+            <input type="text" name="card_holder_name" id="card_holder_name">
+            <br>
+            <br>
+            <label for="card_number">Card Number : </label>
+            <input type="number" name="card_number" id="card_number">
+            <br>
+            <br>
+            <label for="expiry_date">Expiry Date : </label>
+            <input type="date" name="expiry_date" id="expiry_date">
+            <br>
+            <br>
+            <label for="cvv">CVV : </label>
+            <input type="number" name="cvv" id="cvv">
+            
+        </fieldset>
+        <br>
+        <button type="submit">Place Order</button>
     </form>
 </body>
 </html>
